@@ -1,8 +1,8 @@
 services:
   - type: web
-    name: yolo-detect-api
+    name: cloud-spoof-detect
     env: docker
-    repo: https://github.com/YOUR_USERNAME/YOUR_REPO
+    repo: https://github.com/EASONTAN03/cloud-deploy_spoof-detect
     branch: main
     dockerfilePath: ./Dockerfile
     autoDeploy: true
